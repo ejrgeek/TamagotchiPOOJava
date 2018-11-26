@@ -40,10 +40,8 @@ public class BichinhoVirtual {
 
     @Override
     public String toString() {
-        return "Bichinho Virtual{" +
-                "Nome='" + nome + '\'' +
-                ", Raca='" + raca + '\'' +
-                ", Vida=" + vida +
-                '}';
+        return "\n    Nome: '" + nome + '\'' +
+                "\n    Raca: '" + raca + '\'' +
+                "\n    Vida: " + vida;
     }
 }

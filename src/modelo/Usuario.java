@@ -39,9 +39,9 @@ public class Usuario {
 
     @Override
     public String toString() {
-        return "Usuario{" +
-                "user='" + user + '\'' +
-                ", Bichinho Virtual=" + bichinhoVirtual +
+        return "Usuario {" +
+                "\nUsuario: '" + user + '\'' +
+                "\nBichinho Virtual: " + bichinhoVirtual + "\n" +
                 '}';
     }
 }
